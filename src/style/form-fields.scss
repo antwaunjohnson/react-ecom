@@ -5,6 +5,7 @@
   & > * {
     padding-left: 20px;
   }
+
   &__label {
     font-size: 14px;
   }
@@ -16,7 +17,12 @@
     border-radius: 20px;
     color: #333333;
     font-size: 18px;
+
+    &:focus {
+      outline: none;
+    }
   }
+  
 }
 
 .form-button {

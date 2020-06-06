@@ -10,25 +10,22 @@ import history from "../../history";
 class SignUpForm extends Component {
   render() {
     const { className, handleSubmit } = this.props;
-    const links = [
+    const info = [
       {
         _id: 0,
-        title: "Not Registered? Create account here",
-        onClick: () => history.push("/signup"),
+        title: "At least 6 characters",
       },
       {
         _id: 1,
-        title: "Forgot account email",
-        onClick: () => console.log("forgot email"),
+        title: "At least one number",
       },
       {
         _id: 2,
-        title: "Forgot account password",
-        onClick: () => console.log("forgot password"),
+        title: "At least one symbol",
       },
     ];
     return (
-      <form onSubmit={handleSubmit} className={`${className} sign-in-form`}>
+      <form onSubmit={handleSubmit} className={`${className} sign-up-form`}>
         <Field
           className="sign-up-form__name"
           name="name"
@@ -54,9 +51,9 @@ class SignUpForm extends Component {
           component={FormInput}
         />
         <Field
-          className="sign-up-form__confirm-password"
-          name="password"
-          type="confrim password"
+          className="sign-up-form__confirm"
+          name="confirm"
+          type="password"
           title="Confirm Password"
           placeholder="Confirm Password"
           component={FormInput}
@@ -81,8 +78,8 @@ class SignUpForm extends Component {
         />
         <Details
           className="sign-up-form__details"
-          title="QuickLinks"
-          links={links}
+          title="Password Requirements"
+          info={info}
         />
       </form>
     );
