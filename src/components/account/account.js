@@ -44,10 +44,10 @@ class Account extends Component {
   }
 }
 
-function mapStateToProps(state) {
+const mapStateToProps = (state) => {
   const { headerLinks, navbarLinks } = state.headerNavbar;
   return { headerLinks, navbarLinks };
-}
+};
 
 Account = connect(mapStateToProps, actions)(Account);
 

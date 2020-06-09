@@ -22,12 +22,12 @@ class Navbar extends Component {
   }
 }
 
-function mapStateToProps(state) {
+const mapStateToProps = (state) => {
   const { navbarLinks } = state.headerNavbar;
   return {
     navbarLinks,
   };
-}
+};
 
 Navbar = connect(mapStateToProps)(Navbar);
 
