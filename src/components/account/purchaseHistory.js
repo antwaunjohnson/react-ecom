@@ -13,7 +13,7 @@ class PurchaseHistory extends Component {
         />
         <Purchases className="purchase-history__purchases" />
         <PurchaseDetail className="purchase-history__detail" />
-        <div className="purchase-history__border-bottom"></div>
+        <div className="purchase-history__bottom-border"></div>
       </div>
     );
   }
