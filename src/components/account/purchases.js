@@ -11,8 +11,9 @@ class Purchases extends Component {
     const { className } = this.props;
     return (
       <div className={`${className} purchases`}>
-        <div>purchases go here...</div>
-        <div>purchases go here...</div>
+        {this.props.purchases.map((purchase) => {
+          return <div>{purchase.title}</div>;
+        })}
       </div>
     );
   }
