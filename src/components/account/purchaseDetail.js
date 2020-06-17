@@ -24,30 +24,32 @@ class PurchaseDetail extends Component {
     return (
       <div className={`${className} purchase-detail`}>
         <PurchaseDetailLabel
-          className="purchase-detaile__order-number"
+          className="purchase-detail__order-number"
           title="Order Number"
           value={orderNumber}
         />
         <PurchaseDetailLabel
-          className="purchase-detaile__order-date"
+          className="purchase-detail__order-date"
           title="Order Date"
           value={orderDate}
         />
         <PurchaseDetailLabel
-          className="purchase-detaile__order-shipping"
+          className="purchase-detail__shipping-address"
           title="Shipping Address"
           value={`${name}\n${shippingAddress}`}
         />
         <PurchaseDetailLabel
-          className="purchase-detaile__order-total"
+          className="purchase-detail__total"
           title="Total"
           value={total}
         />
         <PurchaseDetailLabel
-          className="purchase-detaile__order-credit-card"
+          className="purchase-detail__credit-card"
           title="Credit Card"
           value={creditCard}
         />
+        <a className="purchase-detail__track-shipment">Track Shipment</a>
+        <a className="purchase-detail__print-receipt">Print Receipt</a>
       </div>
     );
   }
