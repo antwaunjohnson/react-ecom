@@ -11,7 +11,7 @@
     display: grid;
     grid-template-rows: [name-s street-address-s] 64px [name-e street-address-e email-s city-s] 64px[email-e city-e zipcode-s state-s] 64px [zipcode-e state-end];
     grid-template-columns: [s] 1fr [m] 1fr [e];
-    // grid-column-gap: 40px;
+    grid-row-gap: 15px;
   }
 }
 
@@ -51,5 +51,9 @@
     input {
       width: 200px;
     }
+  }
+  
+  &__change-password {
+    transform: translateY(38px);
   }
 }

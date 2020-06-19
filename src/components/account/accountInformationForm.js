@@ -2,17 +2,17 @@ import React, { Component } from "react";
 
 import { reduxForm, Field } from "redux-form";
 
-import { FormInput, FormButton } from "../formFields";
-import Details from "../details";
-
-import history from "../../history";
+import { FormInput, FormButton, ChangePasswordButton } from "../formFields";
 
 class AccountInformationForm extends Component {
   render() {
     const { className, handleSubmit } = this.props;
 
     return (
-      <form onSubmit={handleSubmit} className={`${className} sign-in-form`}>
+      <form
+        onSubmit={handleSubmit}
+        className={`${className} account-information-form`}
+      >
         <Field
           className="account-information-form__name"
           name="name"
@@ -61,23 +61,16 @@ class AccountInformationForm extends Component {
           placeholder="Zip Code"
           component={FormInput}
         />
-        {/* <Field
-          className="account-information-form__password"
-          name="password"
-          type="password"
-          title="Password"
-          placeholder="Password"
-          component={FormInput}
-        />
-        <div className="account-information-form__line"></div>
+
         <Field
-          className="sign-in-form__login"
-          onClick={() => history.push("/account")}
-          name="login"
-          type="submit"
-          title="Login"
-          component={FormButton}
-        /> */}
+          className="account-information-form__change-password"
+          onClick={() => console.log("ready to change password")}
+          name=""
+          labelTitle="Password"
+          type="button"
+          title="Change Password"
+          component={ChangePasswordButton}
+        />
       </form>
     );
   }
