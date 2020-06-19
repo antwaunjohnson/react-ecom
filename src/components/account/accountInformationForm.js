@@ -5,6 +5,13 @@ import { reduxForm, Field } from "redux-form";
 import { FormInput, FormButton, ChangePasswordButton } from "../formFields";
 
 class AccountInformationForm extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      showPasswords: false,
+    };
+  }
   render() {
     const { className, handleSubmit } = this.props;
 
@@ -62,15 +69,47 @@ class AccountInformationForm extends Component {
           component={FormInput}
         />
 
-        <Field
-          className="account-information-form__change-password"
-          onClick={() => console.log("ready to change password")}
-          name=""
-          labelTitle="Password"
-          type="button"
-          title="Change Password"
-          component={ChangePasswordButton}
-        />
+        {this.state.showPasswords ? (
+          [
+            <Field
+              key={0}
+              className="account-information-form__current-password"
+              name="current-password"
+              type="current-password"
+              title="Current Passord"
+              placeholder="Current Password"
+              component={FormInput}
+            />,
+            <Field
+              key={1}
+              className="account-information-form__new-password"
+              name="new-password"
+              type="new-password"
+              title="New Passord"
+              placeholder="New Password"
+              component={FormInput}
+            />,
+            <Field
+              key={2}
+              className="account-information-form__confirm-password"
+              name="confirm-password"
+              type="confirm-password"
+              title="Confirm Passord"
+              placeholder="Confirm Password"
+              component={FormInput}
+            />,
+          ]
+        ) : (
+          <Field
+            className="account-information-form__change-password"
+            onClick={() => this.setState({ showPasswords: true })}
+            name=""
+            labelTitle="Password"
+            type="button"
+            title="Change Password"
+            component={ChangePasswordButton}
+          />
+        )}
       </form>
     );
   }
