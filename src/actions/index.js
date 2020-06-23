@@ -6,14 +6,14 @@ import {
 
 import { fetchUserPurchases, setPurchaseDetail } from "./user";
 
-import { fetchShopCategories, fetchShopProducts } from "./shop";
-
-export {
-  setHeaderLinks,
-  setNavbarLinks,
-  changeNavbarActive,
-  fetchUserPurchases,
-  setPurchaseDetail,
+import {
   fetchShopCategories,
   fetchShopProducts,
-};
+  filterProductsWithCategoryId,
+} from "./shop";
+
+export { setHeaderLinks, setNavbarLinks, changeNavbarActive };
+
+export { fetchUserPurchases, setPurchaseDetail };
+
+export { fetchShopCategories, fetchShopProducts, filterProductsWithCategoryId };
