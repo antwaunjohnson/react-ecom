@@ -70,7 +70,7 @@ export function fetchShopProducts() {
       },
       {
         _id: 1,
-        title: "Graph Database",
+        title: "UML Basics",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
         amount: 1.99,
@@ -126,11 +126,27 @@ export function fetchShopProducts() {
       },
       {
         _id: 8,
-        title: "Server Configuration Basics",
+        title: "Linux Server Configuration Basics",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
         amount: 1.99,
         belongsTo: [0, 2],
+      },
+      {
+        _id: 9,
+        title: "Advanced Linux Server Configuration",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
+        amount: 1.99,
+        belongsTo: [0, 2],
+      },
+      {
+        _id: 10,
+        title: "Advanced UML",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
+        amount: 1.99,
+        belongsTo: [0, 6],
       },
     ],
   };
