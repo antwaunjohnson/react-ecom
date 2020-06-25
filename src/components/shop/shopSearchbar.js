@@ -19,7 +19,7 @@ class ShopSearchBar extends Component {
     return (
       <form onSubmit={handleSubmit} className={`${className} shop-search-bar`}>
         <Field
-          name="shop-search-bar"
+          name="query"
           className="shop-search-bar__form-searh-bar"
           placeholder="search"
           component={FormSearchBar}

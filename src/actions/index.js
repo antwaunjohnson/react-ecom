@@ -10,10 +10,16 @@ import {
   fetchShopCategories,
   fetchShopProducts,
   filterProductsWithCategoryId,
+  filterProductsWithQuery,
 } from "./shop";
 
 export { setHeaderLinks, setNavbarLinks, changeNavbarActive };
 
 export { fetchUserPurchases, setPurchaseDetail };
 
-export { fetchShopCategories, fetchShopProducts, filterProductsWithCategoryId };
+export {
+  fetchShopCategories,
+  fetchShopProducts,
+  filterProductsWithCategoryId,
+  filterProductsWithQuery,
+};
