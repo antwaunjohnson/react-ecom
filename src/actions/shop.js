@@ -64,7 +64,7 @@ export function fetchShopProducts() {
         _id: 0,
         title: "JavaScript in the Browser",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 1],
       },
@@ -72,7 +72,7 @@ export function fetchShopProducts() {
         _id: 1,
         title: "UML Basics",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 6],
       },
@@ -80,7 +80,7 @@ export function fetchShopProducts() {
         _id: 2,
         title: "Full Stack Development",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 3, 4],
       },
@@ -88,7 +88,7 @@ export function fetchShopProducts() {
         _id: 3,
         title: "JavaScript Development",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 1],
       },
@@ -96,7 +96,7 @@ export function fetchShopProducts() {
         _id: 4,
         title: "User Interface Decise",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 5],
       },
@@ -104,7 +104,7 @@ export function fetchShopProducts() {
         _id: 5,
         title: "User Experience Design",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 5],
       },
@@ -112,7 +112,7 @@ export function fetchShopProducts() {
         _id: 6,
         title: "Advanced Object Oriented Python",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 3],
       },
@@ -120,7 +120,7 @@ export function fetchShopProducts() {
         _id: 7,
         title: "Advanced Object Oriented Ruby",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 4],
       },
@@ -128,7 +128,7 @@ export function fetchShopProducts() {
         _id: 8,
         title: "Linux Server Configuration Basics",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 2],
       },
@@ -136,7 +136,7 @@ export function fetchShopProducts() {
         _id: 9,
         title: "Advanced Linux Server Configuration",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 2],
       },
@@ -144,7 +144,7 @@ export function fetchShopProducts() {
         _id: 10,
         title: "Advanced UML",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit ipsum finibus dignissim elementum.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 6],
       },
