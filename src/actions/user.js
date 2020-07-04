@@ -1,9 +1,57 @@
-import { SET_USER_PURCHASES, SET_PURCHASE_DETAIL } from "./types";
+import {
+  SET_USER_PURCHASES,
+  SET_PURCHASE_DETAIL,
+  SET_CART_PRODUCTS,
+} from "./types";
 
 export function setPurchaseDetail(_id) {
   return {
     type: SET_PURCHASE_DETAIL,
     payload: _id,
+  };
+}
+
+export function fetchCartProducts() {
+  return {
+    type: SET_CART_PRODUCTS,
+    payload: [
+      {
+        _id: 0,
+        product: {
+          _id: 0,
+          title: "JavaScript in the Browser",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
+          amount: 1.99,
+          belongsTo: [0, 1],
+        },
+        quantity: 2,
+      },
+      {
+        _id: 1,
+        product: {
+          _id: 1,
+          title: "UML Basics",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
+          amount: 1.99,
+          belongsTo: [0, 6],
+        },
+        quantity: 3,
+      },
+      {
+        _id: 2,
+        product: {
+          _id: 2,
+          title: "Full Stack Development",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
+          amount: 1.99,
+          belongsTo: [0, 3, 4],
+        },
+        quantity: 1,
+      },
+    ],
   };
 }
 
