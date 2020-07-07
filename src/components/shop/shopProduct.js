@@ -1,9 +1,19 @@
 import React, { Component } from "react";
-import Shop from "./shop";
+
 import Quantity from "../quantity";
 import GreenPriceTag from "../greenPriceTag";
 
 class ShopProduct extends Component {
+  handleAddToCart = () => {
+    if (
+      document.getElementById("shop-cart").classList.contains("cart-hidden")
+    ) {
+      document.getElementById("shop-cart").classList.remove("cart-hidden");
+    } else {
+      document.getElementById("shop-cart").classList.add("cart-hidden");
+    }
+  };
+
   render() {
     const { _id, title, description, amount } = this.props;
     return (
@@ -20,7 +30,12 @@ class ShopProduct extends Component {
           <div className="shop-product__back__description">{description}</div>
           <GreenPriceTag className="shop-product__back__price" title={amount} />
           <Quantity className="shop-product__back__quantity" quantity={1} />
-          <div className="shop-product__back__add-to-cart">Add to Cart</div>
+          <a
+            onClick={this.handleAddToCart}
+            className="shop-product__back__add-to-cart"
+          >
+            Add to Cart
+          </a>
         </div>
       </div>
     );
