@@ -1,5 +1,9 @@
 html {
     font-size: 62.5%;
+    a,
+    button {
+        cursor: pointer;
+    }
 }
 
 *,
@@ -45,3 +49,4 @@ body {
 @import './green-price-tag.scss';
 
 @import './order/review.scss';
+@import './order/review-form.scss';
