@@ -67,6 +67,7 @@ export function fetchShopProducts() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 1],
+        imageUrl: "http://via.placeholder.com/80x80",
       },
       {
         _id: 1,
@@ -75,6 +76,7 @@ export function fetchShopProducts() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 6],
+        imageUrl: "http://via.placeholder.com/80x80",
       },
       {
         _id: 2,
@@ -83,6 +85,7 @@ export function fetchShopProducts() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 3, 4],
+        imageUrl: "http://via.placeholder.com/80x80",
       },
       {
         _id: 3,
@@ -91,6 +94,7 @@ export function fetchShopProducts() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 1],
+        imageUrl: "http://via.placeholder.com/80x80",
       },
       {
         _id: 4,
@@ -99,6 +103,7 @@ export function fetchShopProducts() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 5],
+        imageUrl: "http://via.placeholder.com/80x80",
       },
       {
         _id: 5,
@@ -107,6 +112,7 @@ export function fetchShopProducts() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 5],
+        imageUrl: "http://via.placeholder.com/80x80",
       },
       {
         _id: 6,
@@ -115,6 +121,7 @@ export function fetchShopProducts() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 3],
+        imageUrl: "http://via.placeholder.com/80x80",
       },
       {
         _id: 7,
@@ -123,6 +130,7 @@ export function fetchShopProducts() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 4],
+        imageUrl: "http://via.placeholder.com/80x80",
       },
       {
         _id: 8,
@@ -131,6 +139,7 @@ export function fetchShopProducts() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 2],
+        imageUrl: "http://via.placeholder.com/80x80",
       },
       {
         _id: 9,
@@ -139,6 +148,7 @@ export function fetchShopProducts() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 2],
+        imageUrl: "http://via.placeholder.com/80x80",
       },
       {
         _id: 10,
@@ -147,6 +157,7 @@ export function fetchShopProducts() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget convallis massa. Cras eget sem interdum, facilisis augue scelerisque, porttitor quam. Integer eu orci vel ante accumsan efficitur. Maecenas ut vehicula felis, sed aliquet arcu. Integer quis luctus odio, sit amet vehicula lorem..",
         amount: 1.99,
         belongsTo: [0, 6],
+        imageUrl: "http://via.placeholder.com/80x80",
       },
     ],
   };
