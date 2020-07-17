@@ -10,6 +10,7 @@ import history from "../../history";
 
 function CartContent({ className, products }) {
   let count = products.length;
+
   let productsList = products.map((product) => (
     <CartProduct {...product} key={product._id} />
   ));
@@ -23,7 +24,10 @@ function CartContent({ className, products }) {
 }
 
 function CartFooter({ className, products }) {
-  const price = 8.95;
+  let subtotal = 0;
+  products.map((cartProduct) => {
+    subtotal += cartProduct.quantity * cartProduct.product.amount;
+  });
   return (
     <div className={`${className} cart-footer`}>
       <a
@@ -33,7 +37,7 @@ function CartFooter({ className, products }) {
         Checkout
       </a>
       <div className="cart-footer__subtotal">Subtotal</div>
-      <div className="cart-footer__price">${price}</div>
+      <div className="cart-footer__price">${subtotal}</div>
     </div>
   );
 }
