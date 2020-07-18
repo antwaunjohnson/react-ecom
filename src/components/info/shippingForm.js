@@ -59,7 +59,7 @@ class ShippingForm extends Component {
           onClick={() => history.push("/info/payment")}
           name="use-this-address"
           type="submit"
-          title="Create Account"
+          title="Use This Address"
           component={FormButton}
         />
         <Field
